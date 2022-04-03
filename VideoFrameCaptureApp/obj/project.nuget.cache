@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4Rjzspv5ymDJeGyOQwZhliSQF1rwbO8KpYkS1+yUDDyVE3olNeeb2smdNPqUJhecA3jX+g4Mnd8sNh16hWJqLg==",
+  "dgSpecHash": "G2qEi9CKF3GnBWWFTMre0FEAJJYKmWVltYSnx9hDeae+QPS0yK7eINv4St69sXVzd8qjBmDB9eaV/kh7VGF0LA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ryank\\source\\repos\\WinFormsApp1\\WinFormsApp1\\VideoFrameCaptureApp.csproj",
+  "projectFilePath": "C:\\Users\\ryank\\source\\repos\\VideoFrameCaptureApp\\VideoFrameCaptureApp\\VideoFrameCaptureApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ryank\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\ryank\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

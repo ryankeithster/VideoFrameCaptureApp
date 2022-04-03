@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ryank\\source\\repos\\WinFormsApp1\\WinFormsApp1\\VideoFrameCaptureApp.csproj": {}
+    "C:\\Users\\ryank\\source\\repos\\VideoFrameCaptureApp\\VideoFrameCaptureApp\\VideoFrameCaptureApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ryank\\source\\repos\\WinFormsApp1\\WinFormsApp1\\VideoFrameCaptureApp.csproj": {
+    "C:\\Users\\ryank\\source\\repos\\VideoFrameCaptureApp\\VideoFrameCaptureApp\\VideoFrameCaptureApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ryank\\source\\repos\\WinFormsApp1\\WinFormsApp1\\VideoFrameCaptureApp.csproj",
+        "projectUniqueName": "C:\\Users\\ryank\\source\\repos\\VideoFrameCaptureApp\\VideoFrameCaptureApp\\VideoFrameCaptureApp.csproj",
         "projectName": "VideoFrameCaptureApp",
-        "projectPath": "C:\\Users\\ryank\\source\\repos\\WinFormsApp1\\WinFormsApp1\\VideoFrameCaptureApp.csproj",
+        "projectPath": "C:\\Users\\ryank\\source\\repos\\VideoFrameCaptureApp\\VideoFrameCaptureApp\\VideoFrameCaptureApp.csproj",
         "packagesPath": "C:\\Users\\ryank\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ryank\\source\\repos\\WinFormsApp1\\WinFormsApp1\\obj\\",
+        "outputPath": "C:\\Users\\ryank\\source\\repos\\VideoFrameCaptureApp\\VideoFrameCaptureApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ryank\\AppData\\Roaming\\NuGet\\NuGet.Config",
