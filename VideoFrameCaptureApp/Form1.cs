@@ -7,6 +7,11 @@ namespace VideoFrameCaptureApp
     {
         private VideoFrameReader frameReader;
         private bool hasBeenInitialized;
+        
+        // Capture 10 frames per second.
+        // Note: The lowest cost tier of Azure Cognitive Services facial recognition only
+        // supports up to 10 calls per second
+        private static readonly uint FPS = 10;
 
         public static async Task<Form1> BuildFormAsync()
         {
@@ -23,7 +28,7 @@ namespace VideoFrameCaptureApp
         public Form1()
         {
             InitializeComponent();
-            frameReader = new VideoFrameReader();
+            frameReader = new VideoFrameReader(FPS);
             hasBeenInitialized = false;
         }
 
@@ -44,12 +49,17 @@ namespace VideoFrameCaptureApp
             }
             Debug.WriteLine("Beginning capture");
 
-            frameReader.StartCapture();
+            await frameReader.StartCapture();
 
             if (btnSender != null)
             {
                 btnSender.Enabled = true;
             }
+        }
+
+        private async void button2_Click(object sender, EventArgs e)
+        {
+            await frameReader.StopCapture();
         }
     }
 }
